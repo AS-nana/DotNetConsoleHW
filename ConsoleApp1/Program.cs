@@ -6,11 +6,13 @@ string fname = Console.ReadLine();
 Console.WriteLine("Please input your Last name: ");
 string lname = Console.ReadLine();
 Console.WriteLine("Please input your age: ");
-int age = Console.ReadLine();
+Int32 age = Convert.ToInt32(Console.ReadLine());
+
+
 Console.WriteLine("Please input your gender: ");
 string gender = Console.ReadLine();
 
-int ageIn20 = age + 20;
+int ageIn20 = age+ 20;
 
 
 
@@ -18,4 +20,4 @@ Console.WriteLine("\nYour details are as follows: ");
 Console.WriteLine($"- Fist name: " + fname);
 Console.WriteLine($"- Last Name: " + lname);
 Console.WriteLine($"- Gender: "+ gender);
-Console.WriteLine("You will be" + ageIn20 + "years old in 20 years!");
+Console.WriteLine("You will be " + ageIn20 + " years old in 20 years!");
